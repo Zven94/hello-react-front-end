@@ -24,7 +24,7 @@ function Greeting() {
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
-    height: '100vh'
+    height: '100vh',
   };
 
   const styles2 = {
@@ -38,8 +38,8 @@ function Greeting() {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-    justifyContent: 'center'
-  }
+    justifyContent: 'center',
+  };
 
   return (
     <div style={styles}>

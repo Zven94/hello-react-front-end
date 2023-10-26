@@ -10,9 +10,8 @@ export const fetchGreetings = createAsyncThunk('greetings/fetchGreetings', async
   if (response.ok) {
     const data = await response.json();
     return data;
-  } else {
-    throw new Error('Failed to fetch greetings');
   }
+  throw new Error('Failed to fetch greetings');
 });
 
 const greetingSlice = createSlice({
