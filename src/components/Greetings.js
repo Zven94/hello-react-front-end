@@ -45,7 +45,7 @@ function Greeting() {
     <div style={styles}>
       <p>
         {' '}
-        { greetings.greetings }
+        { greetings.greeting }
       </p>
       <button type="button" onClick={handleClick} style={styles2}>Random Greeting</button>
     </div>
