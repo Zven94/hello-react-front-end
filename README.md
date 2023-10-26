@@ -1,70 +1,188 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h1><b>Hello React Fron End</b></h1>
 
-## Available Scripts
+</div>
 
-In the project directory, you can run:
+# 📗 Table of Contents
 
-### `npm start`
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Usage](#usage)
+  - [Run Tests](#tests)
+- [🚀 Front End](#front)  
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 📖 Hello Rails Back end <a name="about-project"></a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Hello React Fron End** In this project I implemented a simple Back end API with Rails and postgresql.
 
-### `npm test`
+## 🛠 Built With <a name="built-with"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Tech Stack <a name="tech-stack"></a>
 
-### `npm run build`
+<details>
+<summary>Ruby</summary>
+  <ul>
+    <li># README
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Things you may want to cover:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Ruby version
 
-### `npm run eject`
+* System dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* Configuration
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Database creation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* Database initialization
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+* Services (job queues, cache servers, search engines, etc.)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Deployment instructions
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* ...
+      <a href="https://www.ruby-lang.org/es/">Ruby</a>
+    </li>
+    <li>
+      <a href="https://github.com/github/rubocop-github/blob/main/STYLEGUIDE.md">Ruby styles guide</a>
+    </li>
+    <li>
+      <a href="https://github.com/microverseinc/linters-config/tree/master/ruby">Ruby linters (Rubocop)</a>
+    </li>
+  </ul>
+</details>
 
-### Code Splitting
+<details>
+<summary>Rails</summary>
+  <ul>
+    <li>
+      <a href="https://guides.rubyonrails.org/">Guide</a>
+    </li>
+  </ul>
+</details>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<details>
+<summary> PostgreSQL </summary>
+  <ul>
+    <li>
+      <a href="https://www.postgresql.org/docs/current/tutorial-createdb.html#TUTORIAL-CREATEDB">Documentation</a>
+    </li>
+  </ul>
+</details>
 
-### Analyzing the Bundle Size
+### Key Features <a name="key-features"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **Ruby on rails**
 
-### Making a Progressive Web App
+- **Postgresql**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 💻 Getting Started <a name="getting-started"></a>
 
-### Deployment
+This repository includes files with ruby lenguage and SQL.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Prerequisites
 
-### `npm run build` fails to minify
+In order to run this project you need to have Ruby installed, check [this](https://github.com/Zven94/hello-react-front-end.git) documentation in order to know how to install it.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Setup
+
+Clone this repository to your desired folder:
+
+```sh
+  cd my-folder 
+  git clone https://github.com/Zven94/hello-react-front-end
+```
+
+### Usage
+
+To run the server
+
+```sh
+  rails s
+```
+
+To check the linters you can use the command:
+
+```sh
+  rubocop
+```
+
+
+
+To fix the linter use: 
+
+```sh
+  rubocop -A
+
+```
+
+## 🚀 React Front End connection <a name="front"></a>
+
+This Rails API, was created to work with:
+
+[Rails Back end](https://github.com/Zven94/hello-rails-back-end.git)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👥 Authors <a name="author"></a>
+
+👤 **Nicolas Bolañez**
+-   GitHub: [@Zven94](https://github.com/Zven94)
+-   LinkedIn: [Nico](https://www.linkedin.com/in/nicolas-emiliano/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [] **Deploy**
+- [] **Give some Styling** 
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Zven94/hello-react-front-end/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project you could clone the repo and work with it or do the changes in a new branch. Also you could let a message with your thoughts.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank Microverse for providing the necessary resources and all the effort from each member to complete this project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
